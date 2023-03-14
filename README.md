@@ -1,5 +1,5 @@
-# TravelTripWeb ![alt text](https://imgyukle.com/f/2023/03/14/QhEeuy.jpeg)
-Tatil &amp; Seyehat Blog
+Tatil & Seyeheat Blog Projesi 
+
 Bu proje Murat Yücedağ hocamızın Youtube' de bulununan "Asp.Net Mvc ile Tatil & Seyehat Sitesi" projesini Ermenek ilçesine özgü Seyehat yerleri ve meşhur yemekleri
 ile bir kaç değişiklik ile tamamlanmıştır.
 Proje Asp.Net Mvc ve MS SQL Server kullanılarak tasarlanmış ve kodlanmıştır.
@@ -14,5 +14,7 @@ Hakkımızda kısmı listenebilir ve güncellenebilir.
 İletişim kısmında ziyaretçilerin site veya herhangi bir konu hakkında düşünceleri listenebilir ve silinebilir.
 Siteye git kısmında admin sitesine dönebilir.
 Çıkış işlemi ile de admin panelinden çıkış yapılabiliir.
+
+# ![alt text] (https://imgyukle.com/f/2023/03/14/QhREks.jpeg) 
 
 
