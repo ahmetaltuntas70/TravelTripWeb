@@ -1,4 +1,4 @@
-# TravelTripWeb
+# TravelTripWeb ![alt text](https://imgyukle.com/f/2023/03/14/QhEeuy.jpeg)
 Tatil &amp; Seyehat Blog
 Bu proje Murat Yücedağ hocamızın Youtube' de bulununan "Asp.Net Mvc ile Tatil & Seyehat Sitesi" projesini Ermenek ilçesine özgü Seyehat yerleri ve meşhur yemekleri
 ile bir kaç değişiklik ile tamamlanmıştır.
