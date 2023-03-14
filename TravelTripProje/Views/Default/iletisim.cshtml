@@ -1,0 +1,59 @@
+﻿@model TravelTripProje.Models.Siniflar.iletisim
+
+
+@{
+    ViewBag.Title = "iletisim";
+    Layout = "~/Views/Shared/_TestLayout.cshtml";
+}
+<link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+
+<div class="contact">
+    <div class="wrap">
+        <div class="contact-top">
+            <div class="contact-top">
+                <h3>Bizimle iletişime geçmek için aşağıdaki formu lütfen doldurunuz...</h3>
+                
+            </div>
+            <h3>İletişim İçin Bilgiler</h3>
+
+        </div>
+        <div class="form">
+            <form class="cmxform" id="contactForm" method="post">
+
+
+                <div>
+                    <input type="text" class="textbox" name="AdSoyad" value="Name:" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Name';}">
+                </div>
+                <div>
+                    <input type="text" class="textbox" name="Mail" value="Email:" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email';}">
+                </div>
+                <div>
+                    <input type="text" class="textbox" name="Konu" value="Konu:" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Konu';}">
+                </div>
+
+                <div class="form1">
+                    <div>
+                        <textarea value="Message:" name="Mesaj" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Message';}">Message:</textarea>
+                    </div>
+                </div>
+                <div>
+                    <p><button class="btn btn-danger">Gönder</button></p>
+                </div>
+
+            </form>
+
+        </div>
+        <div class="form1">
+            <div>
+                <img style="width:90%;margin-left:200px;margin-bottom:40px" src="https://r.resimlink.com/nZaqCcR.jpg" />
+
+            </div>
+        </div>
+        <div class="clear"></div>
+
+        <div class="clear"></div>
+    </div>
+</div>
+
+
+

@@ -1,0 +1,101 @@
+﻿@using TravelTripProje.Models.Siniflar
+@model List<Blog>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_TestLayout.cshtml";
+}
+
+<!--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE HTML>
+<html>
+<body>
+    <div class="header-banner">
+        <div class="wrap">
+            <div class="banner">
+                <div class="indent">
+                    <h2 class="indent-left margin-bot" style="margin-left:80px">Ermenek Seyehat Bloğum</h2>
+                    <div class="banner-left">
+                        <div class="con-text">
+                            <div class="grid1-img">
+                                <a href="https://www.google.com/travel/hotels/Ermenek?g2lb=2502548%2C2503771%2C2503781%2C2503911%2C4258168%2C4270442%2C4306835%2C4308226%2C4317915%2C4371335%2C4401769%2C4419364%2C4429192%2C4515404%2C4545890%2C4596364%2C4597339%2C4615736%2C4617195%2C4621099%2C4270859%2C4284970%2C4291517&hl=tr-TR&gl=tr&ssta=1&ap=aAE&q=ermenek%20oteller&rp=EMmXp4yyzZyRVBDGr4eb3e-7rUUQ5s_03cfasPe-ATgBQABIAqIBEEVybWVuZWssIEthcmFtYW4&ictx=1&sa=X&ved=0CAAQ5JsGahcKEwj4nvyak-DyAhUAAAAAHQAAAAAQAg&utm_campaign=sharing&utm_medium=link&utm_source=htls&ts=CAESCgoCCAMKAggDEAAaNAoWEhI6EEVybWVuZWssIEthcmFtYW4aABIaEhQKBwjlDxAJGBwSBwjlDxAJGB0YATICEAAqBgoCKAEaAA"><img src="~/web/images/pic2.jpg" style="width:110px;height:70px;"alt=""></a>
+                            </div>
+                            <div class="grid1-desc">
+                                <a href="https://www.google.com/travel/hotels/Ermenek?g2lb=2502548%2C2503771%2C2503781%2C2503911%2C4258168%2C4270442%2C4306835%2C4308226%2C4317915%2C4371335%2C4401769%2C4419364%2C4429192%2C4515404%2C4545890%2C4596364%2C4597339%2C4615736%2C4617195%2C4621099%2C4270859%2C4284970%2C4291517&hl=tr-TR&gl=tr&ssta=1&ap=aAE&q=ermenek%20oteller&rp=EMmXp4yyzZyRVBDGr4eb3e-7rUUQ5s_03cfasPe-ATgBQABIAqIBEEVybWVuZWssIEthcmFtYW4&ictx=1&sa=X&ved=0CAAQ5JsGahcKEwj4nvyak-DyAhUAAAAAHQAAAAAQAg&utm_campaign=sharing&utm_medium=link&utm_source=htls&ts=CAESCgoCCAMKAggDEAAaNAoWEhI6EEVybWVuZWssIEthcmFtYW4aABIaEhQKBwjlDxAJGBwSBwjlDxAJGB0YATICEAAqBgoCKAEaAA"><p>Oteller</p></a>
+</div>
+                            <div class="clear"></div>
+                        </div>
+                        <div class="con-text">
+                            <div class="grid1-img">
+                                <a href="https://www.google.com/search?tbs=lf:1,lf_ui:9&tbm=lcl&sxsrf=AOaemvJM91SS4nS6LztCcaaTRVchha3hmw:1630581146898&q=ermenek+restoranlar&rflfq=1&num=10&sa=X&ved=2ahUKEwiqxaaQlODyAhVGhf0HHQslCiwQjGp6BAgGEEs&biw=1366&bih=625#rlfi=hd:;si:;mv:[[36.642015,32.924027099999996],[36.6163733,32.874411699999996]];tbs:lrf:!1m4!1u3!2m2!3m1!1e1!1m4!1u2!2m2!2m1!1e1!2m1!1e2!2m1!1e3!3sIAE,lf:1,lf_ui:9"><img src="~/web/images/pic9.jpg" style="width:110px;height:70px;" alt=""></a>
+                            </div>
+                            <div class="grid1-desc">
+                                <a href="https://www.google.com/search?tbs=lf:1,lf_ui:9&tbm=lcl&sxsrf=AOaemvJM91SS4nS6LztCcaaTRVchha3hmw:1630581146898&q=ermenek+restoranlar&rflfq=1&num=10&sa=X&ved=2ahUKEwiqxaaQlODyAhVGhf0HHQslCiwQjGp6BAgGEEs&biw=1366&bih=625#rlfi=hd:;si:;mv:[[36.642015,32.924027099999996],[36.6163733,32.874411699999996]];tbs:lrf:!1m4!1u3!2m2!3m1!1e1!1m4!1u2!2m2!2m1!1e1!2m1!1e2!2m1!1e3!3sIAE,lf:1,lf_ui:9"><p>Restoranlar</p></a>
+                            </div>
+                            <div class="clear"></div>
+                        </div>
+                        <div class="con-text">
+                            <div class="grid1-img">
+                                <a href="https://www.tripadvisor.com.tr/Attractions-g1999798-Activities-Ermenek_Karaman_Province.html"><img src="~/web/images/pic6.jpg" style="width:110px;height:70px;" alt=""></a>
+                            </div>
+                            <div class="grid1-desc">
+                                <a href="https://www.tripadvisor.com.tr/Attractions-g1999798-Activities-Ermenek_Karaman_Province.html"><p>Aktiviteler</p></a>
+                            </div>
+                            <div class="clear"></div>
+                        </div>
+                        
+                        <div class="clear"></div>
+                    </div>
+                    <div class="header_bottom_right_images">
+
+                        <div class="slider" style="width:480px;height:350px;">
+                            <ul class="rslides" id="slider1">
+                                @foreach (var x in Model)
+                                {
+                                <li><img src="@x.BlogImage" style="width:480px;height:350px;" alt=""></li>
+                                @*<li><img src="~/web/images/img2.jpg" alt=""></li>
+                                <li><img src="~/web/images/img3.jpg" alt=""></li>
+                                <li><img src="~/web/images/img4.jpg" alt=""></li>*@
+                                }
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="clear"></div>
+            </div>
+            <div class="clear"></div>
+        </div>
+    </div>
+    <div class"content">
+        <div class="wrap">
+            <div class="wrapper">
+                <div class="con-top">
+                    <h3>Ermenek Seyehat Bloğuma HOŞGELDİNİZ!</h3>
+                    <p>
+                        Ermenek Gezilecek Yerler Güney Anadolu coğrafyasında bulunan Ermenek, gezilip görülmesi gereken yerlerden birisidir. Ermenek, önceleri Konya şehrine bağlı bir ilçe olmuştur. Fakat daha sonrasında çıkartılan
+                        kanun sonrasında Karaman iline bağlandı. Bakıldığı zaman tamı tamına 5000 yıldır insanların
+                        yaşadığı merkez konumunda olan ilçedir. Ermenek ilçesinde sayıca fazla olan tarihi yerler ve
+                        doğal güzelikler bulunuyor. Eğer ki sizlerde tatil rotanızı buraya doğru çevirdiyseniz sayacağımız
+                        bu güzellikleri görmeden gitmeyin. Böylelikle tatilinizi daha keyif dolu şekilde sürdürme şansına
+                        sahip olursunuz.
+                    </p>
+                </div>
+                @Html.Action("Partial1", "Default")
+                <div class="grids">
+                    <div class="box1">
+                        @Html.Action("Partial3","Default")
+                        @Html.Action("Partial4","Default")
+                        <div class="clear"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
+
